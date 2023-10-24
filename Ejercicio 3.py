@@ -8,3 +8,20 @@
 # Suman: 3
 # Ingresá un nuevo número: 3
 # Multiplicación de la suma por el último número: 9
+
+# pedir al usuario que ingrese el primer numero
+numero1 = int(input("ingresa el primer numero: "))
+# pedir al usuario que ingrese el segundo numero
+numero2 = int(input("ingresa el segundo numero: "))
+
+# pedir al usuario que ingrese el tercer numero
+suma = numero1 + numero2
+
+# pedir al usuario que ingrese el tercer numero
+numero3 = int(input("ingresa el tercer numero: "))
+
+# multiplicar el numero3 por suma
+resultado = numero3 * suma
+
+# resultado de la multiplicacion
+print(resultado)
