@@ -5,3 +5,14 @@
 # Kilómetros recorridos: 260
 # Litros de combustible gastados: 12.5
 # El consumo por kilómetro es de 20.8
+
+# pedir a usuario ingresar los kilometros
+kilometros = int(input("kilometros recorridos: "))
+# pedir a usuario ingresar los litros de conbustibles
+conbustible = float(input("litros de conbustibles: "))
+
+# dividir los kilometros por la cantidad de litros de conbustibles
+resultado = kilometros / conbustible
+
+# mostrar el resultado
+print(resultado)
