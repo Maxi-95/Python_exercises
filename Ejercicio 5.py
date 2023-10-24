@@ -4,3 +4,11 @@
 
 # Ingresá una temperatura expresada en Farenheit: 75
 # 23.88888888888889
+
+Fahrenheit = int(input("ingresa los grados Farenheit: "))
+
+# realizar La fórmula de conversión
+Celsius = (5/9) * (Fahrenheit-32)
+
+# Mostrar los grados de Fahrenheit a Celsius
+print(Celsius)
