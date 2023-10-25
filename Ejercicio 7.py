@@ -5,11 +5,9 @@
 # Ingresá un número: 260
 # Descontando el 15% queda: 221.0
 
-# Código de ejemplo
+numero = int(input("su numero: "))
 
-# cadena=""
-# cadena=cadena+"buen"
-# cadena=cadena+" día"
-# print(cadena)
+resultado = numero * 15 / 100
+total = numero - resultado
 
-# Cuando se utiliza el operador + en una operación entre strings, se está realizando una concatenación (unión de strings). La instrucción print mostrada arriba imprimirá “buen día”.
+print(total)
