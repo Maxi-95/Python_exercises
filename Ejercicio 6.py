@@ -6,3 +6,13 @@
 # Segundo número: 10
 # Tercer número: 5.5
 # El promedio de los tres es 8.0
+
+primero = float(input("ingresa Primer número: "))
+
+segundo = int(input("ingresa Segundo número: "))
+
+tercero = float(input("ingresa Tercer número: "))
+
+resultado = primero + segundo + tercero
+
+print(resultado / 3)
