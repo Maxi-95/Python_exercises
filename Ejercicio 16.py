@@ -5,3 +5,13 @@
 # Tu nombre: Alfredo
 # Otro nombre: Eduardo
 # True
+
+nombre1 = input("ingrese nombre1: ")
+nombre2 = input("ingrese nombre2: ")
+
+if nombre1[0] == nombre2[0]:
+    print(True)
+elif nombre1[-1] == nombre2[-1]:
+    print(True)
+else:
+    print(False)  
