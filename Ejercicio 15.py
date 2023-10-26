@@ -4,4 +4,14 @@
 
 # Una palabra: complejidad
 # Otra palabra: algoritmo
-# False
+# Falsez
+
+
+palabra1 = input("ingresa la primera palabra: ")
+palabra2 = input("ingresa la segunda palabra: ")
+
+if len(palabra1) < len(palabra2):
+    print(True)
+    
+else:
+    print(False)
