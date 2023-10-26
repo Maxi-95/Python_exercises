@@ -15,3 +15,7 @@
 #     print("El número es impar")
     
 #La instrucción if-else permite que se ejecute un bloque de código u otro, pero nunca ambos. En este ejemplo, si es verdad que el número ingresado por el usuario (y almacenado en la variable x) es un número par (es decir, si es verdad que el resto de la división del número por 2 es 0), se imprimirá “El número es par”. Si esa condición es falsa (el resto de la división del número por 2 no es 0), se imprimirá “El número es impar”.
+
+
+print(f"el valor absoluto de -51 es: {-51 * -1}")
+print(f"el valor absoluto de 51 es: {51}")
