@@ -11,3 +11,10 @@
 # print(a>100  and  a!=1000)
 
 #Primero se calcularán los valores lógicos (True o False) de las dos comparaciones: a > 100 y a != 1000 (lo cual dependerá del número guardado en la variable a). A continuación, se utilizará la tabla de verdad de la operación AND para calcular el resultado.
+
+entero = int(input("ingrese un numero: "))
+
+if entero % 2 == 0:
+    print(True)
+else:
+    print(False)
