@@ -22,3 +22,18 @@
 #     print("Número correcto")
     
 #En las dos instrucciones if-else anteriores se toma como correcto a cualquier número entre 10 y 20, pero es necesario observar cómo los operadores < y > cambian y cómo el operador and cambia por or para lograr el mismo objetivo.
+
+numero1 = int(input("Numero 1: "))
+numero2 = int(input("Numero 2: "))
+numero3 = int(input("Numero 3: "))
+
+lista = [numero1, numero2, numero3]
+
+if numero1 < numero2 and numero1 < numero3:
+    print(numero1)
+elif numero2 < numero1 and numero2 < numero3:
+    print(numero2)
+else:
+    print(numero3)
+
+
