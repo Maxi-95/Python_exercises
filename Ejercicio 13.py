@@ -5,3 +5,15 @@
 # Tu edad: 32
 # Artículos comprados: 1
 # False
+
+edad = int(input("ingrese su edad: "))
+
+compra = int(input("cantidad de compras: "))
+
+if edad > 18:
+    if compra > 1:
+        print(True)
+    else:
+        print(False)
+else:
+    print("Eres menor de edad")
