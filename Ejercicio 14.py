@@ -11,3 +11,10 @@
 # "bailar” > "bebida"
 
 #Ambas comparaciones arrojan True porque el string “animal” es menor que “piedra” y el string “bailar” es menor que “bebida”. El orden está dado por cómo aparecen las letras en el alfabeto. En el caso de “animal” y “piedra”, la “a” es menor que la “p”. En el caso de “bailar” y “bebida”, como la primera letra es la misma se evalúa la segunda, y en este caso “a” es menor que “e”.
+
+texto = input("ingresa un texto: ") 
+
+if(len(texto) % 2 == 0):
+    print(True)
+else:
+    print(False)
