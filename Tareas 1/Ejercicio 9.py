@@ -16,3 +16,17 @@
 # print(a != b)
 
 # La instrucción print imprimirá True, ya que el valor contenido en a es diferente del valor contenido en b.
+
+
+texto = input("ingresá un texto: ")
+
+primer_caracter = texto[0]
+print(primer_caracter)
+
+
+numero = int(input("ingresá un numero: "))
+
+if numero < len(texto):
+    print(texto[numero])
+else:
+    print("ingrese un numero menor a la cantidad de caracteres que tiene el texto")
