@@ -56,27 +56,35 @@
 # Ejercicio 6
 # Escribir un programa que pida al usuario que introduzca una frase en la consola y una vocal, y después muestre por pantalla la misma frase pero con la vocal introducida en mayúscula.
 
-frase = input("frase por favor: ")
-vocal = input("vocal por favor: ")
-lista = list(frase)
-print(lista)
+# frase = input("frase por favor: ")
+# vocal = input("vocal por favor: ")
+# lista = list(frase)
+# print(lista)
 
-new_array = []
+# new_array = []
 
-for la_vocal in frase:
-    #    if la_vocal == vocal:
-    # vocal = la_vocal.upper()
-    result = la_vocal.replace(vocal, vocal.upper())
-    new_array.append(result)
+# for la_vocal in frase:
+#     #    if la_vocal == vocal:
+#     # vocal = la_vocal.upper()
+#     result = la_vocal.replace(vocal, vocal.upper())
+#     new_array.append(result)
 
 
-s = "".join(new_array)
-print(s)
+# s = "".join(new_array)
+# print(s)
 
 # --------------------------------------------------
 # Ejercicio 7
 # Escribir un programa que pregunte el correo electrónico del usuario en la consola y muestre por pantalla otro correo electrónico con el mismo nombre (la parte delante de la arroba @) pero con dominio ceu.es.
 
+correo = input("ingrese correo: ")
+
+nombre = ""
+for letra in correo:
+    if letra == "@":
+        nombre += letra
+
+print(nombre)
 # --------------------------------------------------
 # Ejercicio 8
 # Escribir un programa que pregunte por consola el precio de un producto en euros con dos decimales y muestre por pantalla el número de euros y el número de céntimos del precio introducido.
