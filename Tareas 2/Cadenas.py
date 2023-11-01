@@ -77,18 +77,23 @@
 # Ejercicio 7
 # Escribir un programa que pregunte el correo electrónico del usuario en la consola y muestre por pantalla otro correo electrónico con el mismo nombre (la parte delante de la arroba @) pero con dominio ceu.es.
 
-correo = input("ingrese correo: ")
+# correo = input("ingrese correo: ")
 
-nombre = ""
-for letra in correo:
-    if letra == "@":
-        nombre += letra
+# nombre = "" 
 
-print(nombre)
+# for letra in correo:
+#     nombre += letra
+#     if letra == "@":
+#         break
+
+# print(f"{nombre}.ceu.es")
+
 # --------------------------------------------------
 # Ejercicio 8
 # Escribir un programa que pregunte por consola el precio de un producto en euros con dos decimales y muestre por pantalla el número de euros y el número de céntimos del precio introducido.
 
+producto = float(input("precio del catalizador: "))
+print(f"el 1lt del catalizador vale:  € ${producto}")
 # --------------------------------------------------
 # Ejercicio 9
 # Escribir un programa que pregunte al usuario la fecha de su nacimiento en formato dd/mm/aaaa y muestra por pantalla, el día, el mes y el año. Adaptar el programa anterior para que también funcione cuando el día o el mes se introduzcan con un solo carácter.
