@@ -92,12 +92,37 @@
 # Ejercicio 8
 # Escribir un programa que pregunte por consola el precio de un producto en euros con dos decimales y muestre por pantalla el número de euros y el número de céntimos del precio introducido.
 
-producto = float(input("precio del catalizador: "))
-print(f"el 1lt del catalizador vale:  € ${producto}")
+# producto = float(input("precio del catalizador: "))
+# print(f"el 1lt del catalizador vale:  € ${producto}")
 # --------------------------------------------------
 # Ejercicio 9
 # Escribir un programa que pregunte al usuario la fecha de su nacimiento en formato dd/mm/aaaa y muestra por pantalla, el día, el mes y el año. Adaptar el programa anterior para que también funcione cuando el día o el mes se introduzcan con un solo carácter.
 
+# fecha = input("Fecha de nacimiento: ")
+
+# dia = ""
+# mes = ""
+# año = ""
+
+# for caracter in fecha:
+#     if caracter != "/":
+#         # Agregar el carácter al valor correspondiente
+#         dia += caracter
+#     else:
+#         # Cambiar a la variable mes después de encontrar "/"
+#         mes = dia
+#         dia = ""
+        
+# # El último valor se almacena en el año
+# año = dia
+
+# print(f"""
+#       Día: {dia}
+#       Mes: {mes}
+#       Año: {año}
+#       """)
+        
+        
 # --------------------------------------------------
 # Ejercicio 10
 # Escribir un programa que pregunte por consola por los productos de una cesta de la compra, separados por comas, y muestre por pantalla cada uno de los productos en una línea distinta.
