@@ -1,13 +1,13 @@
 # Ejercicio 1
 # Escribir un programa que pida al usuario una palabra y la muestre por pantalla 10 veces.
 
-palabra = input("palabra: ")
+# palabra = input("palabra: ")
 
-numero = 0
+# numero = 0
 
-while numero < 11:
-    print(palabra)
-    numero += 1
+# while numero < 11:
+#     print(palabra)
+#     numero += 1 
 
 
 # Ejercicio 2
