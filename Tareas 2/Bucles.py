@@ -94,7 +94,15 @@
 # Ejercicio 8
 # Escribir un programa que pida al usuario un número entero y muestre por pantalla un triángulo rectángulo como el de más abajo.
 
+# final = int(input("ingrese un numero: "))
+final = 10
 
+for num in range(1, final + 1, 2):
+    # for _ in range(num, 0, -2):
+        serie = [_ for _ in range(num, 0, -2)]
+        
+        # print(_)
+        print(serie)
 
 # 1
 # 3 1
