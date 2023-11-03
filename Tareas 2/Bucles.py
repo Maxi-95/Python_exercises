@@ -13,18 +13,22 @@
 # Ejercicio 2
 # Escribir un programa que pregunte al usuario su edad y muestre por pantalla todos los años que ha cumplido (desde 1 hasta su edad).
 
-edad = int(input("ingrese su edad: "))
+# edad = int(input("ingrese su edad: "))
 
-numero = 0
-while numero <= edad:
-    print(numero)
-    numero += 1
+# numero = 0
+# while numero <= edad:
+#     print(numero)
+#     numero += 1
     
     
-
 # --------------------------------------------------
 # Ejercicio 3
 # Escribir un programa que pida al usuario un número entero positivo y muestre por pantalla todos los números impares desde 1 hasta ese número separados por comas.
+
+# final = int(input("ingrese un numero: "))
+
+# impares = ",".join(str(num) for num in range(1, final + 1, 2))
+# print(impares)
 
 # --------------------------------------------------
 # Ejercicio 4
