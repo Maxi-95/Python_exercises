@@ -48,22 +48,35 @@
 # Ejercicio 5
 # Escribir un programa que pregunte al usuario una cantidad a invertir, el interés anual y el número de años, y muestre por pantalla el capital obtenido en la inversión cada año que dura la inversión.
 
-inversion = int(input("inversion: "))
-interes = float(input("Interés anual (en porcentaje): "))  # Usamos float
-tiempo_en_años = int(input("Cantidad de años: "))
+# inversion = int(input("inversion: "))
+# interes = float(input("Interés anual (en porcentaje): "))  # Usamos float
+# tiempo_en_años = int(input("Cantidad de años: "))
 
-# Convertir el interés de porcentaje a fracción
-interes = interes / 100.0
+# # Convertir el interés de porcentaje a fracción
+# interes = interes / 100.0
 
-for año in range(tiempo_en_años):
-    # Calcular el capital acumulado utilizando la fórmula del interés compuesto
-    capital_acumulado = inversion * (1 + interes)
-    print(f"Año {año + 1}: {capital_acumulado:.2f}")  # Mostrar el resultado con dos decimales
-    inversion = capital_acumulado
+# for año in range(tiempo_en_años):
+#     # Calcular el capital acumulado utilizando la fórmula del interés compuesto
+#     capital_acumulado = inversion * (1 + interes)
+#     print(f"Año {año + 1}: {capital_acumulado:.2f}")  # Mostrar el resultado con dos decimales
+#     inversion = capital_acumulado
+    
 # --------------------------------------------------
 # Ejercicio 6
 # Escribir un programa que pida al usuario un número entero y muestre por pantalla un triángulo rectángulo como el de más abajo, de altura el número introducido.
 
+# numero = int(input("ingrese un numero: "))
+
+# inicio = 0
+
+# for num in range(numero):
+#     serie = []
+#     for _ in range(num):
+#         serie.append(_)
+    
+#     print(serie)    
+    
+    
 # *
 # **
 # ***
@@ -73,9 +86,15 @@ for año in range(tiempo_en_años):
 # Ejercicio 7
 # Escribir un programa que muestre por pantalla la tabla de multiplicar del 1 al 10.
 
+# for _ in range(10):
+#     result = _ * 10
+#     print(f"{_} * 10: {result}")
+
 # --------------------------------------------------
 # Ejercicio 8
 # Escribir un programa que pida al usuario un número entero y muestre por pantalla un triángulo rectángulo como el de más abajo.
+
+
 
 # 1
 # 3 1
