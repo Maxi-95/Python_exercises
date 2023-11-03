@@ -34,10 +34,32 @@
 # Ejercicio 4
 # Escribir un programa que pida al usuario un número entero positivo y muestre por pantalla la cuenta atrás desde ese número hasta cero separados por comas.
 
+# numero = int(input("ingrese un numero:"))
+# serie = []
+# num = 0
+
+# while num < numero:
+#     numero -= 1
+#     serie.append(numero) 
+# cadena = ", ".join(map(str, serie))
+# print(cadena)
+
 # --------------------------------------------------
 # Ejercicio 5
 # Escribir un programa que pregunte al usuario una cantidad a invertir, el interés anual y el número de años, y muestre por pantalla el capital obtenido en la inversión cada año que dura la inversión.
 
+inversion = int(input("inversion: "))
+interes = float(input("Interés anual (en porcentaje): "))  # Usamos float
+tiempo_en_años = int(input("Cantidad de años: "))
+
+# Convertir el interés de porcentaje a fracción
+interes = interes / 100.0
+
+for año in range(tiempo_en_años):
+    # Calcular el capital acumulado utilizando la fórmula del interés compuesto
+    capital_acumulado = inversion * (1 + interes)
+    print(f"Año {año + 1}: {capital_acumulado:.2f}")  # Mostrar el resultado con dos decimales
+    inversion = capital_acumulado
 # --------------------------------------------------
 # Ejercicio 6
 # Escribir un programa que pida al usuario un número entero y muestre por pantalla un triángulo rectángulo como el de más abajo, de altura el número introducido.
