@@ -7,7 +7,7 @@
 
 # while numero < 11:
 #     print(palabra)
-#     numero += 1 
+#     numero += 1
 
 # --------------------------------------------------
 # Ejercicio 2
@@ -19,8 +19,8 @@
 # while numero <= edad:
 #     print(numero)
 #     numero += 1
-    
-    
+
+
 # --------------------------------------------------
 # Ejercicio 3
 # Escribir un programa que pida al usuario un número entero positivo y muestre por pantalla todos los números impares desde 1 hasta ese número separados por comas.
@@ -40,7 +40,7 @@
 
 # while num < numero:
 #     numero -= 1
-#     serie.append(numero) 
+#     serie.append(numero)
 # cadena = ", ".join(map(str, serie))
 # print(cadena)
 
@@ -60,7 +60,7 @@
 #     capital_acumulado = inversion * (1 + interes)
 #     print(f"Año {año + 1}: {capital_acumulado:.2f}")  # Mostrar el resultado con dos decimales
 #     inversion = capital_acumulado
-    
+
 # --------------------------------------------------
 # Ejercicio 6
 # Escribir un programa que pida al usuario un número entero y muestre por pantalla un triángulo rectángulo como el de más abajo, de altura el número introducido.
@@ -73,10 +73,10 @@
 #     serie = []
 #     for _ in range(num):
 #         serie.append(_)
-    
-#     print(serie)    
-    
-    
+
+#     print(serie)
+
+
 # *
 # **
 # ***
@@ -95,14 +95,15 @@
 # Escribir un programa que pida al usuario un número entero y muestre por pantalla un triángulo rectángulo como el de más abajo.
 
 # final = int(input("ingrese un numero: "))
-final = 10
+# final = 10
 
-for num in range(1, final + 1, 2):
-    # for _ in range(num, 0, -2):
-        serie = [_ for _ in range(num, 0, -2)]
-        
-        # print(_)
-        print(serie)
+# for num in range(1, final + 1, 2):
+#     # for _ in range(num, 0, -2):
+#     serie = [_ for _ in range(num, 0, -2)]
+
+#     # print(_)
+#     print(serie)
+
 
 # 1
 # 3 1
@@ -112,6 +113,14 @@ for num in range(1, final + 1, 2):
 # --------------------------------------------------
 # Ejercicio 9
 # Escribir un programa que almacene la cadena de caracteres contraseña en una variable, pregunte al usuario por la contraseña hasta que introduzca la contraseña correcta.
+
+# la_contraseña = ""
+
+# while la_contraseña != "1233":
+#     la_contraseña = input("contraseña: ")
+
+# print("contraseña correcta")
+
 
 # --------------------------------------------------
 # Ejercicio 10
