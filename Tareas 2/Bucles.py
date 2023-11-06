@@ -125,3 +125,17 @@
 # --------------------------------------------------
 # Ejercicio 10
 # Escribir un programa que pida al usuario un número entero y muestre por pantalla si es un número primo o no.
+
+# def es_primo(num):
+#     if num < 2:
+#         return False
+#     for i in range(2, num):
+#         if num % i == 0:
+#             return False
+#     return True
+
+# for num in range(1, 101):
+#     if es_primo(num):
+#         print(num)
+
+# subir cambios
