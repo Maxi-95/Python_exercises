@@ -44,19 +44,38 @@
 # Ejercicio 5
 # Para tributar un determinado impuesto se debe ser mayor de 16 años y tener unos ingresos iguales o superiores a 1000 € mensuales. Escribir un programa que pregunte al usuario su edad y sus ingresos mensuales y muestre por pantalla si el usuario tiene que tributar o no.
 
-edad = int(input("edad: "))
-sueldo = int(input("sueldo: "))
+# edad = int(input("edad: "))
+# sueldo = int(input("sueldo: "))
 
-if edad > 16:
-    if sueldo > 1000:
-        print("tiene que tributar")
-    if sueldo < 1000:
-        print("no gana lo suficiente para tributar")
-else:
-    print("todabia es menor para tributar")
+# if edad > 16:
+#     if sueldo > 1000:
+#         print("tiene que tributar")
+#     if sueldo < 1000:
+#         print("no gana lo suficiente para tributar")
+# else:
+#     print("todabia es menor para tributar")
     
 # Ejercicio 6
 # Los alumnos de un curso se han dividido en dos grupos A y B de acuerdo al sexo y el nombre. El grupo A esta formado por las mujeres con un nombre anterior a la M y los hombres con un nombre posterior a la N y el grupo B por el resto. Escribir un programa que pregunte al usuario su nombre y sexo, y muestre por pantalla el grupo que le corresponde.
+# import string
+
+# nombre = input("alumno/a: ")
+# sexo = input("sexo: ")
+# alfabeto = list(string.ascii_lowercase)
+
+
+# for letra in alfabeto:
+#     if nombre[0] == letra[0:12]:
+#         if sexo == "mujer":
+#             print("Grupo ( A )")
+#         if sexo == "hombre":
+#             print("Grupo ( B )")
+#     elif nombre[0] == letra[12:]:   
+#         if sexo == "hombre":
+#             print("Grupo ( A )")
+#         if sexo == "mujer":
+#             print("Grupo ( B )")
+            
 
 
 # Ejercicio 7
