@@ -95,16 +95,6 @@
 # Escribir un programa que pida al usuario un número entero y muestre por pantalla un triángulo rectángulo como el de más abajo.
 
 # final = int(input("ingrese un numero: "))
-<<<<<<< HEAD
-
-
-# for num in range(1, final + 1, 2):
-#     # for _ in range(num, 0, -2):
-#         serie = [_ for _ in range(num, 0, -2)]
-        
-#         # print(_)
-#         print(serie)
-=======
 # final = 10
 
 # for num in range(1, final + 1, 2):
@@ -114,7 +104,6 @@
 #     # print(_)
 #     print(serie)
 
->>>>>>> d4722e4273828da535a8e946f99dae3c36ce231c
 
 # 1
 # 3 1
@@ -125,19 +114,6 @@
 # Ejercicio 9
 # Escribir un programa que almacene la cadena de caracteres contraseña en una variable, pregunte al usuario por la contraseña hasta que introduzca la contraseña correcta.
 
-<<<<<<< HEAD
-contraseña = "arsovispo"
-
-aprobado = ""
-
-# insistir hasta que se introdusa la contraseña correcta
-while aprobado == contraseña:
-    la_contraseña = input("contraseña: ")
-    aprobado = la_contraseña
-    
-
-print("contraseña Correcta")
-=======
 # la_contraseña = ""
 
 # while la_contraseña != "1233":
@@ -145,7 +121,6 @@ print("contraseña Correcta")
 
 # print("contraseña correcta")
 
->>>>>>> d4722e4273828da535a8e946f99dae3c36ce231c
 
 # --------------------------------------------------
 # Ejercicio 10
