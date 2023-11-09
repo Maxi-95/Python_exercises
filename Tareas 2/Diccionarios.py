@@ -18,6 +18,15 @@
 # Ejercicio 2
 # Escribir un programa que pregunte al usuario su nombre, edad, dirección y teléfono y lo guarde en un diccionario. Después debe mostrar por pantalla el mensaje <nombre> tiene <edad> años, vive en <dirección> y su número de teléfono es <teléfono>.
 
+# nombre = input("nombre: ")
+# edad = input("edad: ")
+# direccion = input("direccion: ")
+# telefono = input("telefono: ")
+
+# obj = {"nombre": nombre, "edad": edad,
+#        "direccion": direccion, "telefono": telefono}
+
+# print(f"{nombre} tiene {edad} años, vive en {direccion} y su número de teléfono es {telefono}")
 
 # Ejercicio 3
 # Escribir un programa que guarde en un diccionario los precios de las frutas de la tabla, pregunte al usuario por una fruta, un número de kilos y muestre por pantalla el precio de ese número de kilos de fruta. Si la fruta no está en el diccionario debe mostrar un mensaje informando de ello.
@@ -27,6 +36,23 @@
 # Manzana	0.80
 # Pera	0.85
 # Naranja	0.70
+
+# Crear un diccionario con los precios de las frutas
+# precios_frutas = {"Plátano": 1.35,
+#                   "Manzana": 0.80, "Pera": 0.85, "Naranja": 0.70}
+
+# # Solicitar al usuario la fruta y la cantidad de kilos
+# fruta = input("Ingrese una fruta: ")
+# kilos = float(input("Ingrese la cantidad de kilos: "))
+
+# # Verificar si la fruta está en el diccionario
+# if fruta in precios_frutas:
+#     precio_por_kilo = precios_frutas[fruta]
+#     costo_total = precio_por_kilo * kilos
+#     print(f"El precio de {kilos} kilos de {fruta} es: {costo_total}€")
+# else:
+#     print(f"Lo siento, la fruta {fruta} no está en el diccionario de precios.")
+
 
 # Ejercicio 4
 # Escribir un programa que pregunte una fecha en formato dd/mm/aaaa y muestre por pantalla la misma fecha en formato dd de <mes> de aaaa donde <mes> es el nombre del mes.
