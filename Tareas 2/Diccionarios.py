@@ -57,10 +57,43 @@
 # Ejercicio 4
 # Escribir un programa que pregunte una fecha en formato dd/mm/aaaa y muestre por pantalla la misma fecha en formato dd de <mes> de aaaa donde <mes> es el nombre del mes.
 
+# fecha = input("fecha: ")
+
+# año = {
+#     "01": "enero",
+#     "02": "febrero",
+#     "03": "marzo",
+#     "04": "abril",
+#     "05": "mayo",
+#     "06": "junio",
+#     "07": "julio",
+#     "08": "agosto",
+#     "09": "septiembre",
+#     "10": "octubre",
+#     "11": "noviemrbre",
+#     "12": "diciembre",
+# }
+
+
+# for mes in año:
+#     if fecha[3]+fecha[4] == mes:
+#         print(f"{fecha[0]+fecha[1]} de {año.get(mes)} de {fecha[6:]}")
 
 # Ejercicio 5
 # Escribir un programa que almacene el diccionario con los créditos de las asignaturas de un curso {'Matemáticas': 6, 'Física': 4, 'Química': 5} y después muestre por pantalla los créditos de cada asignatura en el formato <asignatura> tiene <créditos> créditos, donde <asignatura> es cada una de las asignaturas del curso, y <créditos> son sus créditos. Al final debe mostrar también el número total de créditos del curso.
 
+# Almacenar el diccionario con los créditos de las asignaturas
+# creditos_asignaturas = {'Matemáticas': 6, 'Física': 4, 'Química': 5}
+
+# # Mostrar los créditos de cada asignatura
+# total_creditos = 0  # Inicializar el total de créditos
+
+# for asignatura, creditos in creditos_asignaturas.items():
+#     print(f"{asignatura} tiene {creditos} créditos")
+#     total_creditos += creditos  # Sumar los créditos al total
+
+# # Mostrar el número total de créditos del curso
+# print(f"El número total de créditos del curso es: {total_creditos}")
 
 # Ejercicio 6
 # Escribir un programa que cree un diccionario vacío y lo vaya llenado con información sobre una persona (por ejemplo nombre, edad, sexo, teléfono, correo electrónico, etc.) que se le pida al usuario. Cada vez que se añada un nuevo dato debe imprimirse el contenido del diccionario.
