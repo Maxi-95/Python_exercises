@@ -128,6 +128,14 @@
 # Ejercicio 9
 # Escribir un programa para una empresa que tiene salas de juegos para todas las edades y quiere calcular de forma automática el precio que debe cobrar a sus clientes por entrar. El programa debe preguntar al usuario la edad del cliente y mostrar el precio de la entrada. Si el cliente es menor de 4 años puede entrar gratis, si tiene entre 4 y 18 años debe pagar 5€ y si es mayor de 18 años, 10€.
 
+# edad = int(input("edad del cliente: "))
+
+# if edad < 4:
+#     print("el bebe entra gratis")
+# elif edad > 4 and edad < 18:
+#     print("por el niño la entrada cuesta 5€")
+# elif edad > 18:
+#     print("la entrada cuesta 7€")
 
 # Ejercicio 10
 # La pizzería Bella Napoli ofrece pizzas vegetarianas y no vegetarianas a sus clientes. Los ingredientes para cada tipo de pizza aparecen a continuación.
@@ -135,3 +143,22 @@
 # Ingredientes vegetarianos: Pimiento y tofu.
 # Ingredientes no vegetarianos: Peperoni, Jamón y Salmón.
 # Escribir un programa que pregunte al usuario si quiere una pizza vegetariana o no, y en función de su respuesta le muestre un menú con los ingredientes disponibles para que elija. Solo se puede eligir un ingrediente además de la mozzarella y el tomate que están en todas la pizzas. Al final se debe mostrar por pantalla si la pizza elegida es vegetariana o no y todos los ingredientes que lleva.
+
+# tipo_de_pizza = input("que pizza comera el dia de hoy ?: ")
+
+
+# if tipo_de_pizza != "vegetariana":
+#     ingrediente = input("""ingredientes extras:
+# Peperoni
+# Jamón
+# Salmón
+# que ingrediente quiere agregarle a la pizza ?: """)
+#     print(
+#         f"su pizza es {tipo_de_pizza} acompañado con muzzarela, salsa de tomate y {ingrediente}")
+# elif tipo_de_pizza == "vegetariana":
+#     ingrediente = input("""ingredientes extras:
+# Pimiento
+# Tofu
+# que ingrediente quiere agregarle a la pizza ?: """)
+#     print(
+#         f"su pizza es {tipo_de_pizza} acompañado con muzzarela, salsa de tomate y {ingrediente}")
