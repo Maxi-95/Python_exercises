@@ -97,6 +97,46 @@
 
 # Ejercicio 6
 # Escribir un programa que cree un diccionario vacío y lo vaya llenado con información sobre una persona (por ejemplo nombre, edad, sexo, teléfono, correo electrónico, etc.) que se le pida al usuario. Cada vez que se añada un nuevo dato debe imprimirse el contenido del diccionario.
+# def usuario(nombre, edad, sexo, telefono):
+#     persona = {
+#         "nombre": nombre,
+#         "edad": edad,
+#         "sexo": sexo,
+#         "telefono": telefono
+#     }
+#     for clave in persona:
+#         print(persona[clave])
+
+
+# nombre = input("nombre: ")
+# usuario(nombre, "", "", "")
+# edad = input("edad: ")
+# usuario(nombre, edad, "", "")
+# sexo = input("sexo: ")
+# usuario(nombre, edad, sexo, "")
+# telefono = input("telefono: ")
+# usuario(nombre, edad, sexo, telefono)
+
+# Crear un diccionario vacío
+# persona = {}
+
+# while True:
+#     # Solicitar información al usuario
+#     campo = input(
+#         "Ingrese un campo (nombre, edad, sexo, teléfono, correo electrónico) o 'salir' para finalizar: ")
+
+#     if campo.lower() == 'salir':
+#         break  # Salir del bucle si el usuario ingresa 'salir'
+
+#     valor = input(f"Ingrese el valor para '{campo}': ")
+
+#     # Almacenar la información en el diccionario
+#     persona[campo] = valor
+
+#     # Imprimir el contenido actual del diccionario
+#     print("Información actual de la persona:")
+#     for clave, valor in persona.items():
+#         print(f"{clave}: {valor}")
 
 
 # Ejercicio 7
@@ -108,6 +148,32 @@
 # Artículo 3	Precio
 # …	…
 # Total	Coste
+# Crear un diccionario para la lista de la compra
+# cesta_de_la_compra = {}
+
+# while True:
+#     # Solicitar al usuario el artículo y su precio
+#     articulo = input(
+#         "Ingrese el nombre del artículo (o 'terminar' para finalizar): ")
+
+#     if articulo.lower() == 'terminar':
+#         break  # Salir del bucle si el usuario ingresa 'terminar'
+
+#     precio = float(input("Ingrese el precio del artículo: "))
+
+#     # Agregar el artículo y su precio al diccionario
+#     cesta_de_la_compra[articulo] = precio
+
+# # Imprimir la lista de la compra y el coste total
+# print("Lista de la compra")
+# total = 0  # Inicializar el coste total
+
+# for articulo, precio in cesta_de_la_compra.items():
+#     print(f"{articulo}\t{precio}€")
+#     total += precio
+
+# print("Total\tCoste:", total, "€")
+
 
 # Ejercicio 8
 # Escribir un programa que cree un diccionario de traducción español-inglés. El usuario introducirá las palabras en español e inglés separadas por dos puntos, y cada par <palabra>:<traducción> separados por comas. El programa debe crear un diccionario con las palabras y sus traducciones. Después pedirá una frase en español y utilizará el diccionario para traducirla palabra a palabra. Si una palabra no está en el diccionario debe dejarla sin traducir.
