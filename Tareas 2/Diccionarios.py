@@ -178,6 +178,26 @@
 # Ejercicio 8
 # Escribir un programa que cree un diccionario de traducción español-inglés. El usuario introducirá las palabras en español e inglés separadas por dos puntos, y cada par <palabra>:<traducción> separados por comas. El programa debe crear un diccionario con las palabras y sus traducciones. Después pedirá una frase en español y utilizará el diccionario para traducirla palabra a palabra. Si una palabra no está en el diccionario debe dejarla sin traducir.
 
+# diccionario = {}
+# palabras = input(
+#     "Ingrese palabras en español e inglés (separadas por dos puntos, pares separados por comas): ")
+
+# # Separar las palabras y construir el diccionario
+# pares = palabras.split(",")
+# for par in pares:
+#     espanol, ingles = par.split(":")
+#     diccionario[espanol.strip()] = ingles.strip()
+
+# # Pedir una frase en español para traducir
+# frase_espanol = input("Ingrese una frase en español: ")
+
+# # Traducir la frase palabra por palabra
+# palabras_frase = frase_espanol.split()
+# traduccion = [diccionario[palabra]
+#               if palabra in diccionario else palabra for palabra in palabras_frase]
+
+# # Mostrar la traducción
+# print("Traducción al inglés:", " ".join(traduccion))
 
 # Ejercicio 9
 # Escribir un programa que gestione las facturas pendientes de cobro de una empresa. Las facturas se almacenarán en un diccionario donde la clave de cada factura será el número de factura y el valor el coste de la factura. El programa debe preguntar al usuario si quiere añadir una nueva factura, pagar una existente o terminar. Si desea añadir una nueva factura se preguntará por el número de factura y su coste y se añadirá al diccionario. Si se desea pagar una factura se preguntará por el número de factura y se eliminará del diccionario. Después de cada operación el programa debe mostrar por pantalla la cantidad cobrada hasta el momento y la cantidad pendiente de cobro.
