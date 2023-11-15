@@ -202,6 +202,30 @@
 # Ejercicio 9
 # Escribir un programa que gestione las facturas pendientes de cobro de una empresa. Las facturas se almacenarán en un diccionario donde la clave de cada factura será el número de factura y el valor el coste de la factura. El programa debe preguntar al usuario si quiere añadir una nueva factura, pagar una existente o terminar. Si desea añadir una nueva factura se preguntará por el número de factura y su coste y se añadirá al diccionario. Si se desea pagar una factura se preguntará por el número de factura y se eliminará del diccionario. Después de cada operación el programa debe mostrar por pantalla la cantidad cobrada hasta el momento y la cantidad pendiente de cobro.
 
+# decision = input(
+#     "quiere añadir una nueva factura precione 1, para pagar una existente precione 2 o para terminar precione 3: ")
+
+# facturas = {
+#     "001": 2000,
+#     "002": 1500,
+#     "003": 1000,
+# }
+
+# if decision == "1":
+#     factura = input("Introduzca el número de factura: ")
+#     if factura in facturas:
+#         print("Ya existe una factura con esa numeracion")
+#     else:
+#         valor = int(input("Introduzca el valor de la factura: "))
+#         facturas[factura] = valor
+#         print(facturas)
+# elif decision == "2":
+#     factura = input("Introduzca el número de factura: ")
+#     if factura in facturas:
+#         facturas.pop(factura)
+#         print(facturas)
+#     else:
+#         print("No existe una factura con esa numeracion")
 
 # Ejercicio 10
 # Escribir un programa que permita gestionar la base de datos de clientes de una empresa. Los clientes se guardarán en un diccionario en el que la clave de cada cliente será su NIF, y el valor será otro diccionario con los datos del cliente (nombre, dirección, teléfono, correo, preferente), donde preferente tendrá el valor True si se trata de un cliente preferente. El programa debe preguntar al usuario por una opción del siguiente menú: (1) Añadir cliente, (2) Eliminar cliente, (3) Mostrar cliente, (4) Listar todos los clientes, (5) Listar clientes preferentes, (6) Terminar. En función de la opción elegida el programa tendrá que hacer lo siguiente:
