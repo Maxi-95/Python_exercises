@@ -18,9 +18,19 @@
 # Ejercicio 2
 # Escribir un programa que pregunte al usuario su nombre, edad, dirección y teléfono y lo guarde en un diccionario. Después debe mostrar por pantalla el mensaje <nombre> tiene <edad> años, vive en <dirección> y su número de teléfono es <teléfono>.
 
+# nombre = input("nombre: ")
+# edad = int(input("edad: "))
+# direccion = input("direccion: ")
+# telefono = int(input("telefono: "))
+
+# mi_diccionario = {"nombre": nombre, "edad": edad, "ciudad": direccion, "telefono": telefono}
+
+# print(f"{mi_diccionario["nombre"]}, tiene {mi_diccionario["edad"]}, vive en {mi_diccionario["ciudad"]} y su numero es {mi_diccionario["telefono"]} ")
 
 # Ejercicio 3
 # Escribir un programa que guarde en un diccionario los precios de las frutas de la tabla, pregunte al usuario por una fruta, un número de kilos y muestre por pantalla el precio de ese número de kilos de fruta. Si la fruta no está en el diccionario debe mostrar un mensaje informando de ello.
+
+
 
 # Fruta	Precio
 # Plátano	1.35
