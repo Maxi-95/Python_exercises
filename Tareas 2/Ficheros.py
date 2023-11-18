@@ -1,10 +1,66 @@
 # Ejercicio 1
 # Escribir una función que pida un número entero entre 1 y 10 y guarde en un fichero con el nombre tabla-n.txt la tabla de multiplicar de ese número, done n es el número introducido.
 
+# with open('tabla-n.txt', 'w') as archivo:
+#     archivo.write(input("elija el numero del 1 al 10: "))
+
+# with open('tabla-n.txt', 'r') as archivo:
+#     contenido = int(archivo.read())
+    
+#     for numero in range(1, contenido + 1):
+#         print(f"{numero} * {contenido} = {numero*contenido}")
+
+# def guardar_tabla_multiplicar():
+#     # Solicitar al usuario un número entre 1 y 10
+#     numero = int(input("Ingrese un número entero entre 1 y 10: "))
+    
+#     # Validar que el número esté en el rango especificado
+#     if 1 <= numero <= 10:
+#         # Generar la tabla de multiplicar y guardarla en un fichero
+#         with open(f'tabla-{numero}.txt', 'w') as archivo:
+#             for i in range(1, 11):
+#                 resultado = numero * i
+#                 archivo.write(f"{numero} x {i} = {resultado}\n")
+#         print(f"Tabla de multiplicar del {numero} guardada en tabla-{numero}.txt")
+#     else:
+#         print("El número ingresado no está en el rango permitido.")
+
+# # Llamar a la función
+# guardar_tabla_multiplicar()
+    
+# def mostrar_tabla_guardada():
+#     # Solicitar al usuario el número de la tabla que desea mostrar
+#     numero = int(input("Ingrese el número para mostrar la tabla guardada: "))
+    
+#     try:
+#         # Intentar abrir el archivo correspondiente
+#         with open(f'tabla-{numero}.txt', 'r') as archivo:
+#             contenido = archivo.read()
+#             print(contenido)
+#     except FileNotFoundError:
+#         print(f"No se encontró la tabla para el número {numero}. Asegúrese de haber guardado la tabla previamente.")
+
+# # Llamar a la función para mostrar la tabla guardada
+# mostrar_tabla_guardada()    
+
 
 # Ejercicio 2
 # Escribir una función que pida un número entero entre 1 y 10, lea el fichero tabla-n.txt con la tabla de multiplicar de ese número, done n es el número introducido, y la muestre por pantalla. Si el fichero no existe debe mostrar un mensaje por pantalla informando de ello.
 
+# def mostrar_tabla_guardada():
+#     # Solicitar al usuario el número de la tabla que desea mostrar
+#     numero = int(input("Ingrese el número para mostrar la tabla guardada: "))
+    
+#     try:
+#         # Intentar abrir el archivo correspondiente
+#         with open(f'tabla-{numero}.txt', 'r') as archivo:
+#             contenido = archivo.read()
+#             print(contenido)
+#     except FileNotFoundError:
+#         print(f"No se encontró la tabla para el número {numero}. Asegúrese de haber guardado la tabla previamente.")
+
+# # Llamar a la función para mostrar la tabla guardada
+# mostrar_tabla_guardada()   
 
 # Ejercicio 3
 # Escribir una función que pida dos números n y m entre 1 y 10, lea el fichero tabla-n.txt con la tabla de multiplicar de ese número, y muestre por pantalla la línea m del fichero. Si el fichero no existe debe mostrar un mensaje por pantalla informando de ello.
