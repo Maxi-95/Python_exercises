@@ -6,14 +6,14 @@
 
 # with open('tabla-n.txt', 'r') as archivo:
 #     contenido = int(archivo.read())
-    
+
 #     for numero in range(1, contenido + 1):
 #         print(f"{numero} * {contenido} = {numero*contenido}")
 
 # def guardar_tabla_multiplicar():
 #     # Solicitar al usuario un número entre 1 y 10
 #     numero = int(input("Ingrese un número entero entre 1 y 10: "))
-    
+
 #     # Validar que el número esté en el rango especificado
 #     if 1 <= numero <= 10:
 #         # Generar la tabla de multiplicar y guardarla en un fichero
@@ -27,11 +27,11 @@
 
 # # Llamar a la función
 # guardar_tabla_multiplicar()
-    
+
 # def mostrar_tabla_guardada():
 #     # Solicitar al usuario el número de la tabla que desea mostrar
 #     numero = int(input("Ingrese el número para mostrar la tabla guardada: "))
-    
+
 #     try:
 #         # Intentar abrir el archivo correspondiente
 #         with open(f'tabla-{numero}.txt', 'r') as archivo:
@@ -41,7 +41,7 @@
 #         print(f"No se encontró la tabla para el número {numero}. Asegúrese de haber guardado la tabla previamente.")
 
 # # Llamar a la función para mostrar la tabla guardada
-# mostrar_tabla_guardada()    
+# mostrar_tabla_guardada()
 
 
 # Ejercicio 2
@@ -50,7 +50,7 @@
 # def mostrar_tabla_guardada():
 #     # Solicitar al usuario el número de la tabla que desea mostrar
 #     numero = int(input("Ingrese el número para mostrar la tabla guardada: "))
-    
+
 #     try:
 #         # Intentar abrir el archivo correspondiente
 #         with open(f'tabla-{numero}.txt', 'r') as archivo:
@@ -60,11 +60,32 @@
 #         print(f"No se encontró la tabla para el número {numero}. Asegúrese de haber guardado la tabla previamente.")
 
 # # Llamar a la función para mostrar la tabla guardada
-# mostrar_tabla_guardada()   
+# mostrar_tabla_guardada()
 
 # Ejercicio 3
 # Escribir una función que pida dos números n y m entre 1 y 10, lea el fichero tabla-n.txt con la tabla de multiplicar de ese número, y muestre por pantalla la línea m del fichero. Si el fichero no existe debe mostrar un mensaje por pantalla informando de ello.
 
+# def mostrar_tabla_guardada():
+#     # Solicitar al usuario el número de la tabla que desea mostrar
+#     numero1 = int(input("Ingrese el número para mostrar la tabla guardada: "))
+#     numero2 = int(
+#         input("Ingrese el número para mostrar una fila de la tabla: "))
+
+#     try:
+#         # Intentar abrir el archivo correspondiente
+#         with open(f'tabla-{numero1}.txt', 'r') as archivo:
+#             contenido = archivo.read()
+#             lista2 = contenido.split("\n")
+#             for i in range(len(lista2)):
+#                 if i == numero2:
+#                     print(lista2[i])
+#     except FileNotFoundError:
+#         print(
+#             f"No se encontró la tabla para el número {numero}. Asegúrese de haber guardado la tabla previamente.")
+
+
+# Llamar a la función para mostrar la tabla guardada
+mostrar_tabla_guardada()
 
 # Ejercicio 4
 # Escribir un programa que acceda a un fichero de internet mediante su url y muestre por pantalla el número de palabras que contiene.
@@ -94,5 +115,3 @@
 # Una función que reciba una lista de diccionarios como la que devuelve la función anterior y añada a cada diccionario un nuevo par con la nota final del curso. El peso de cada parcial de teoría en la nota final es de un 30% mientras que el peso del examen de prácticas es de un 40%.
 
 # Una función que reciba una lista de diccionarios como la que devuelve la función anterior y devuelva dos listas, una con los alumnos aprobados y otra con los alumnos suspensos. Para aprobar el curso, la asistencia tiene que ser mayor o igual que el 75%, la nota de los exámenes parciales y de prácticas mayor o igual que 4 y la nota final mayor o igual que 5.
-
-
