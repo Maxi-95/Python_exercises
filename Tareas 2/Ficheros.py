@@ -1,3 +1,5 @@
+import urllib.request
+import re
 # Ejercicio 1
 # Escribir una función que pida un número entero entre 1 y 10 y guarde en un fichero con el nombre tabla-n.txt la tabla de multiplicar de ese número, done n es el número introducido.
 
@@ -85,10 +87,22 @@
 
 
 # Llamar a la función para mostrar la tabla guardada
-mostrar_tabla_guardada()
+# mostrar_tabla_guardada()
 
 # Ejercicio 4
 # Escribir un programa que acceda a un fichero de internet mediante su url y muestre por pantalla el número de palabras que contiene.
+
+# url = "https://jsonplaceholder.typicode.com/posts/1"
+
+# try:
+#     # Abrir la conexión y leer el contenido del archivo
+#     with urllib.request.urlopen(url) as response:
+#         contenido = response.read().decode('utf-8')
+#         lista = len(contenido.split())
+
+#         print(lista)
+# except Exception as e:
+#     print(f"Error al acceder a la URL: {e}")
 
 
 # Ejercicio 5
