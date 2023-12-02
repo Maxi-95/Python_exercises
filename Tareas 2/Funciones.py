@@ -1,16 +1,20 @@
 # Ejercicio 1
 # Escribir una función que muestre por pantalla el saludo ¡Hola amiga! cada vez que se la invoque.
 
+# def saludo():
+#     return "Hola amiga!"
+
+# print(saludo())
+
+# Ejercicio 2
+# Escribir una función a la que se le pase una cadena <nombre> y muestre por pantalla el saludo ¡hola <nombre>!.
+
 # def saludo(nombre):
 #     saludar = "Hola " + nombre
 #     return saludar
 
 # result = saludo("maxi")
 # print(result)
-
-# Ejercicio 2
-# Escribir una función a la que se le pase una cadena <nombre> y muestre por pantalla el saludo ¡hola <nombre>!.
-
 
 # Ejercicio 3
 # Escribir una función que reciba un número entero positivo y devuelva su factorial.
