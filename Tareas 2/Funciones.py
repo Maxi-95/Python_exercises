@@ -1,6 +1,12 @@
 # Ejercicio 1
 # Escribir una función que muestre por pantalla el saludo ¡Hola amiga! cada vez que se la invoque.
 
+# def saludo(nombre):
+#     saludar = "Hola " + nombre
+#     return saludar
+
+# result = saludo("maxi")
+# print(result)
 
 # Ejercicio 2
 # Escribir una función a la que se le pase una cadena <nombre> y muestre por pantalla el saludo ¡hola <nombre>!.
@@ -36,5 +42,3 @@
 
 # Ejercicio 10
 # Escribir una función que convierta un número decimal en binario y otra que convierta un número binario en decimal.
-
-
