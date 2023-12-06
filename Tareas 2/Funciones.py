@@ -83,6 +83,14 @@ import math
 # Ejercicio 6
 # Escribir una función que reciba una muestra de números en una lista y devuelva su media.
 
+# lista2 = list(input("introduce una lista: "))
+# # lista = [2,3,6,4,7,8,1]
+
+# def longitud(list):
+#     return len(list)
+
+# resultado = longitud(lista2)
+# print(resultado)
 
 # Ejercicio 7
 # Escribir una función que reciba una muestra de números en una lista y devuelva otra lista con sus cuadrados.
