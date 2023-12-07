@@ -95,6 +95,15 @@ import math
 # Ejercicio 7
 # Escribir una función que reciba una muestra de números en una lista y devuelva otra lista con sus cuadrados.
 
+# def calcular_cuadrados(muestra):
+#     cuadrados = [numero ** 2 for numero in muestra]
+#     return cuadrados
+
+# muestra_numeros = [2, 4, 6, 8, 10]
+# cuadrados_resultantes = calcular_cuadrados(muestra_numeros)
+
+# print(f"La muestra original: {muestra_numeros}")
+# print(f"Los cuadrados de la muestra: {cuadrados_resultantes}")
 
 # Ejercicio 8
 # Escribir una función que reciba una muestra de números en una lista y devuelva un diccionario con su media, varianza y desviación típica.
