@@ -75,14 +75,45 @@ def area_del_circulo(area):
     area = math.pi * radio**2
     return area
 
+# area = int(input("area: "))
+# altura = int(input("altura: "))
+
+# def calcular_area_circulo(radio):
+#     area = math.pi * radio**2
+#     return area
+
+# def calcular_volumen_cilindro(altura, area):
+#     el_area = calcular_area_circulo(area)
+#     volumen = el_area * altura
+#     return volumen
+    
+# result = calcular_volumen_cilindro(altura, area)
+# print(result)
 
 # Ejercicio 6
 # Escribir una función que reciba una muestra de números en una lista y devuelva su media.
 
+# lista2 = list(input("introduce una lista: "))
+# # lista = [2,3,6,4,7,8,1]
+
+# def longitud(list):
+#     return len(list)
+
+# resultado = longitud(lista2)
+# print(resultado)
 
 # Ejercicio 7
 # Escribir una función que reciba una muestra de números en una lista y devuelva otra lista con sus cuadrados.
 
+# def calcular_cuadrados(muestra):
+#     cuadrados = [numero ** 2 for numero in muestra]
+#     return cuadrados
+
+# muestra_numeros = [2, 4, 6, 8, 10]
+# cuadrados_resultantes = calcular_cuadrados(muestra_numeros)
+
+# print(f"La muestra original: {muestra_numeros}")
+# print(f"Los cuadrados de la muestra: {cuadrados_resultantes}")
 
 # Ejercicio 8
 # Escribir una función que reciba una muestra de números en una lista y devuelva un diccionario con su media, varianza y desviación típica.
