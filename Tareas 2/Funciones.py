@@ -1,3 +1,5 @@
+import math
+
 # Ejercicio 1
 # Escribir una función que muestre por pantalla el saludo ¡Hola amiga! cada vez que se la invoque.
 
@@ -49,6 +51,10 @@
 # Ejercicio 4
 # Escribir una función que calcule el total de una factura tras aplicarle el IVA. La función debe recibir la cantidad sin IVA y el porcentaje de IVA a aplicar, y devolver el total de la factura. Si se invoca la función sin pasarle el porcentaje de IVA, deberá aplicar un 21%.
 
+# factura = int(input("factura: "))
+# iva = float(input("iva: "))
+
+
 # def facturacion(factura, iva=None):
 #     if iva is None:
 #         return factura * 1.21
@@ -57,11 +63,17 @@
 #         return factura * iva
 
 
-# num = facturacion(500)
+# num = facturacion(factura, iva)
 # print(num)
 
 # Ejercicio 5
 # Escribir una función que calcule el área de un círculo y otra que calcule el volumen de un cilindro usando la primera función.
+area = int(input("area: "))
+
+
+def area_del_circulo(area):
+    area = math.pi * radio**2
+    return area
 
 
 # Ejercicio 6
