@@ -68,12 +68,6 @@ import math
 
 # Ejercicio 5
 # Escribir una función que calcule el área de un círculo y otra que calcule el volumen de un cilindro usando la primera función.
-area = int(input("area: "))
-
-
-def area_del_circulo(area):
-    area = math.pi * radio**2
-    return area
 
 # area = int(input("area: "))
 # altura = int(input("altura: "))
@@ -86,7 +80,7 @@ def area_del_circulo(area):
 #     el_area = calcular_area_circulo(area)
 #     volumen = el_area * altura
 #     return volumen
-    
+
 # result = calcular_volumen_cilindro(altura, area)
 # print(result)
 
