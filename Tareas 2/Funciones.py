@@ -112,6 +112,29 @@ import math
 # Ejercicio 8
 # Escribir una función que reciba una muestra de números en una lista y devuelva un diccionario con su media, varianza y desviación típica.
 
+# lista = [2, 4, 4, 4, 5, 5, 7, 9]
+
+# def diccionario(lista):
+#     # media
+#     media = sum(lista) / len(lista)
+
+#     # varianza
+#     varianza = sum((x - media) ** 2 for x in lista) / len(lista)
+
+#     # desviación típica
+#     desviación_típica = math.sqrt(varianza)
+
+#     result = {
+#         'Media': media,
+#         'Varianza': varianza,
+#         'Desvio Tipico': desviación_típica
+#     }
+
+#     return result
+
+
+# result = diccionario(lista)
+# print(result)
 
 # Ejercicio 9
 # Escribir una función que calcule el máximo común divisor de dos números y otra que calcule el mínimo común múltiplo.
