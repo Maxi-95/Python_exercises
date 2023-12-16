@@ -116,16 +116,26 @@ import math
 # Ejercicio 9
 # Escribir una función que calcule el máximo común divisor de dos números y otra que calcule el mínimo común múltiplo.
 
-num1 = input("ingrese un numero: ")
-num2 = input("ingrese un numero2: ")
+# num1 = int(input("ingrese un numero: "))
+# num2 = int(input("ingrese el numero 2: "))
 
 
-def result(num1, num2):
-    return num1, num2
+# def result(num1, num2):
+#     while num2 != 0:
+#         resto = num1 % num2
+#         num1 = num2
+#         num2 = resto
+
+#     mcd = num1
+#     return mcd
 
 
-resultado = result(num1, num2)
-print(resultado)
+# def multi(num1, num2):
+#     return abs(num1 * num2) // result(num1, num2)
+
+
+# resultado = multi(num1, num2)
+# print(resultado)
 
 # Ejercicio 10
 # Escribir una función que convierta un número decimal en binario y otra que convierta un número binario en decimal.
