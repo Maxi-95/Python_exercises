@@ -163,37 +163,37 @@ import math
 # Ejercicio 10
 # Escribir una función que convierta un número decimal en binario y otra que convierta un número binario en decimal.
 
-decimal = 13
+# decimal = 13
 
 
-def decimal_a_binario(decimal):
-    binario = []
-    while decimal != 0:
-        binario.insert(0, decimal % 2)
-        decimal = decimal // 2
-    return binario
+# def decimal_a_binario(decimal):
+#     binario = []
+#     while decimal != 0:
+#         binario.insert(0, decimal % 2)
+#         decimal = decimal // 2
+#     return binario
 
 
-# Llamando a la función para obtener la representación binaria
-binario = decimal_a_binario(decimal)
-cadena_binaria = ''.join(map(str, binario))
+# # Llamando a la función para obtener la representación binaria
+# binario = decimal_a_binario(decimal)
+# cadena_binaria = ''.join(map(str, binario))
 
 
-def binario_a_decimal(binario):
-    decimal = 0
-    longitud = len(binario)
+# def binario_a_decimal(binario):
+#     decimal = 0
+#     longitud = len(binario)
 
-    for i in range(longitud):
-        bit = int(binario[i])
-        exponente = longitud - 1 - i
-        decimal += bit * (2 ** exponente)
+#     for i in range(longitud):
+#         bit = int(binario[i])
+#         exponente = longitud - 1 - i
+#         decimal += bit * (2 ** exponente)
 
-    return decimal
+#     return decimal
 
 
-# Llamando a la función para convertir binario a decimal
-decimal_resultante = binario_a_decimal(binario)
+# # Llamando a la función para convertir binario a decimal
+# decimal_resultante = binario_a_decimal(binario)
 
-print(decimal_resultante)
+# print(decimal_resultante)
 
-print(cadena_binaria)
+# print(cadena_binaria)
