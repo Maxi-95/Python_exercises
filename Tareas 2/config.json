@@ -1,0 +1,53 @@
+{
+  "clientes": {
+    "0001": {
+      "nombre": "Maxi",
+      "dirección": "primero de julio",
+      "teléfono": "321123",
+      "correo": "Maxi@gmail.com",
+      "preferente": "arquitecto"
+    },
+    "0002": {
+      "nombre": "Guille",
+      "dirección": "arenales 1",
+      "teléfono": "654456",
+      "correo": "guille@gmail.com",
+      "preferente": "programador"
+    },
+    "0003": {
+      "nombre": "Fernando",
+      "dirección": "malvinas",
+      "teléfono": "987789",
+      "correo": "fernando@gmail.com",
+      "preferente": "guardia"
+    },
+    "0004": {
+      "nombre": "Juan",
+      "dirección": "malvinas",
+      "teléfono": "741147",
+      "correo": "juan@gmail.com",
+      "preferente": "carnicero"
+    },
+    "0005": {
+      "nombre": "Sebastian",
+      "dirección": "arenales",
+      "teléfono": "852258",
+      "correo": "sebastian@gmail.com",
+      "preferente": "analista"
+    },
+    "0006": {
+      "nombre": "Alexis",
+      "dirección": "ruta 18",
+      "teléfono": "963369",
+      "correo": "alexis@gmail.com",
+      "preferente": "fabricante"
+    },
+    "0007": {
+      "nombre": "Flavio",
+      "dirección": "yofre",
+      "teléfono": "159951",
+      "correo": "flavio@gmail.com",
+      "preferente": "policia"
+    }
+  }
+}

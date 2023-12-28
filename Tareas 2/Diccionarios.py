@@ -1,3 +1,6 @@
+import os
+import json
+
 # Ejercicio 1
 # Escribir un programa que guarde en una variable el diccionario {'Euro':'€', 'Dollar':'$', 'Yen':'¥'}, pregunte al usuario por una divisa y muestre su símbolo o un mensaje de aviso si la divisa no está en el diccionario.
 # consulta = input("existe esta moneda?: ")
@@ -30,7 +33,6 @@
 
 # Ejercicio 3
 # Escribir un programa que guarde en un diccionario los precios de las frutas de la tabla, pregunte al usuario por una fruta, un número de kilos y muestre por pantalla el precio de ese número de kilos de fruta. Si la fruta no está en el diccionario debe mostrar un mensaje informando de ello.
-
 
 
 # Fruta	Precio
@@ -238,3 +240,40 @@
 # Mostrar lista de todos los clientes de la base datos con su NIF y nombre.
 # Mostrar la lista de clientes preferentes de la base de datos con su NIF y nombre.
 # Terminar el programa.
+
+
+# Obtiene la ruta absoluta del directorio actual
+directorio_actual = os.path.dirname(os.path.abspath(__file__))
+
+# Combina la ruta del directorio actual con el nombre del archivo
+ruta_config = os.path.join(directorio_actual, 'config.json')
+
+# Abre el archivo en modo lectura
+with open(ruta_config, 'r') as archivo:
+    # Lee el contenido del archivo JSON
+    config_json = json.load(archivo)
+
+# Imprime los datos leídos
+# print(config_json)
+
+final = ""
+
+while final != "termino":
+    decision = input("\n\n¿Qué desea hacer? \n1-Añadir nuevo cliente.\n2-Eliminar cliente.\n3-Mostrar cliente.\n4-Listar todos los clientes.\n5-Listar clientes preferentes.\n6-Terminar   ")
+
+    if decision == "1":
+        dato = input("dato de un cliente a buscar: ")
+
+    if decision == "2":
+        print("decision 2")
+    if decision == "3":
+        print("decision 3")
+    if decision == "4":
+        print("decision 4")
+    if decision == "5":
+        print("decision 5")
+    if decision == "6":
+        final = "termino"
+
+
+print(final)

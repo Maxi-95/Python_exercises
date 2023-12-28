@@ -51,6 +51,10 @@ import math
 # Ejercicio 4
 # Escribir una función que calcule el total de una factura tras aplicarle el IVA. La función debe recibir la cantidad sin IVA y el porcentaje de IVA a aplicar, y devolver el total de la factura. Si se invoca la función sin pasarle el porcentaje de IVA, deberá aplicar un 21%.
 
+# factura = int(input("factura: "))
+# iva = float(input("iva: "))
+
+
 # def facturacion(factura, iva=None):
 #     if iva is None:
 #         return factura * 1.21
@@ -59,7 +63,7 @@ import math
 #         return factura * iva
 
 
-# num = facturacion(500)
+# num = facturacion(factura, iva)
 # print(num)
 
 # Ejercicio 5
@@ -76,7 +80,7 @@ import math
 #     el_area = calcular_area_circulo(area)
 #     volumen = el_area * altura
 #     return volumen
-    
+
 # result = calcular_volumen_cilindro(altura, area)
 # print(result)
 
@@ -108,19 +112,88 @@ import math
 # Ejercicio 8
 # Escribir una función que reciba una muestra de números en una lista y devuelva un diccionario con su media, varianza y desviación típica.
 
+# lista = [2, 4, 4, 4, 5, 5, 7, 9]
 
+# def diccionario(lista):
+#     # media
+#     media = sum(lista) / len(lista)
+
+#     # varianza
+#     varianza = sum((x - media) ** 2 for x in lista) / len(lista)
+
+#     # desviación típica
+#     desviación_típica = math.sqrt(varianza)
+
+#     result = {
+#         'Media': media,
+#         'Varianza': varianza,
+#         'Desvio Tipico': desviación_típica
+#     }
+
+#     return result
+
+
+# result = diccionario(lista)
+# print(result)
 
 # Ejercicio 9
 # Escribir una función que calcule el máximo común divisor de dos números y otra que calcule el mínimo común múltiplo.
 
-num1 = input("ingrese un numero: ")
-num2 = input("ingrese un numero2: ")
+# num1 = int(input("ingrese un numero: "))
+# num2 = int(input("ingrese el numero 2: "))
 
-def result(num1, num2):
- return num1, num2
 
-resultado = result(num1, num2)
-print(resultado)
+# def result(num1, num2):
+#     while num2 != 0:
+#         resto = num1 % num2
+#         num1 = num2
+#         num2 = resto
+
+#     mcd = num1
+#     return mcd
+
+
+# def multi(num1, num2):
+#     return abs(num1 * num2) // result(num1, num2)
+
+
+# resultado = multi(num1, num2)
+# print(resultado)
 
 # Ejercicio 10
 # Escribir una función que convierta un número decimal en binario y otra que convierta un número binario en decimal.
+
+# decimal = 13
+
+
+# def decimal_a_binario(decimal):
+#     binario = []
+#     while decimal != 0:
+#         binario.insert(0, decimal % 2)
+#         decimal = decimal // 2
+#     return binario
+
+
+# # Llamando a la función para obtener la representación binaria
+# binario = decimal_a_binario(decimal)
+# cadena_binaria = ''.join(map(str, binario))
+
+
+# def binario_a_decimal(binario):
+#     decimal = 0
+#     longitud = len(binario)
+
+#     for i in range(longitud):
+#         bit = int(binario[i])
+#         exponente = longitud - 1 - i
+#         decimal += bit * (2 ** exponente)
+
+#     return decimal
+
+
+# # Llamando a la función para convertir binario a decimal
+# decimal_resultante = binario_a_decimal(binario)
+
+# print(decimal_resultante)
+
+# print(cadena_binaria)
