@@ -1,6 +1,15 @@
 # Ejercicio 1
 # Escribir un programa que almacene las asignaturas de un curso (por ejemplo Matemáticas, Física, Química, Historia y Lengua) en una lista y la muestre por pantalla.
 
+# materia1 = input("materia 1: ")
+# materia2 = input("materia 2: ")
+# materia3 = input("materia 3: ")
+# materia4 = input("materia 4: ")
+# materia5 = input("materia 5: ")
+
+# lista = [materia1, materia2, materia3, materia4, materia5]
+
+# print(lista)
 
 # Ejercicio 2
 # Escribir un programa que almacene las asignaturas de un curso (por ejemplo Matemáticas, Física, Química, Historia y Lengua) en una lista y la muestre por pantalla el mensaje Yo estudio <asignatura>, donde <asignatura> es cada una de las asignaturas de la lista.
