@@ -41,12 +41,17 @@
 # resultado = ", ".join(palabras)
 
 
-# print(f"Los numeros ganadores son {resultado}")
+# print(f"Los numeros ganadores son {resultado.sort()}")
 
 
 # Ejercicio 5
 # Escribir un programa que almacene en una lista los números del 1 al 10 y los muestre por pantalla en orden inverso separados por comas.
+# lista = []
 
+# for i in range(1, 11):
+#     lista.append(i)
+# lista.sort(reverse=True)
+# print(lista)
 
 # Ejercicio 6
 # Escribir un programa que almacene las asignaturas de un curso (por ejemplo Matemáticas, Física, Química, Historia y Lengua) en una lista, pregunte al usuario la nota que ha sacado en cada asignatura y elimine de la lista las asignaturas aprobadas. Al final el programa debe mostrar por pantalla las asignaturas que el usuario tiene que repetir.
