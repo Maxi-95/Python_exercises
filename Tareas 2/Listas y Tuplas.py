@@ -33,6 +33,16 @@
 # Ejercicio 4
 # Escribir un programa que pregunte al usuario los números ganadores de la lotería primitiva, los almacene en una lista y los muestre por pantalla ordenados de menor a mayor.
 
+# numeros_ganadores = input("Elija los numeros: ")
+
+# palabras = numeros_ganadores.split()
+
+# # Unir las palabras con comas
+# resultado = ", ".join(palabras)
+
+
+# print(f"Los numeros ganadores son {resultado}")
+
 
 # Ejercicio 5
 # Escribir un programa que almacene en una lista los números del 1 al 10 y los muestre por pantalla en orden inverso separados por comas.
