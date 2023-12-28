@@ -56,17 +56,77 @@
 # Ejercicio 6
 # Escribir un programa que almacene las asignaturas de un curso (por ejemplo Matemáticas, Física, Química, Historia y Lengua) en una lista, pregunte al usuario la nota que ha sacado en cada asignatura y elimine de la lista las asignaturas aprobadas. Al final el programa debe mostrar por pantalla las asignaturas que el usuario tiene que repetir.
 
+# asignaturas = ["Matemáticas", "Física", "Química", "Historia", "Lengua"]
+
+# rendir = []
+
+# for asignatura in asignaturas:
+#     note = input(f"nota de {asignatura}: ")
+#     if note < "6":
+#         rendir.append(asignatura)
+#     else:
+#         print(f"{asignatura}: {note} - Aprobado -")
+
+# print(f"Tiene que rendir: {rendir}")
+
 
 # Ejercicio 7
 # Escribir un programa que almacene el abecedario en una lista, elimine de la lista las letras que ocupen posiciones múltiplos de 3, y muestre por pantalla la lista resultante.
 
+# abecedario = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","ñ","o","p","q","r","s","t","u","v","w","x","y","z"]
+
+# lista_resultante = []
+
+# for indice, valor in enumerate(abecedario):
+#     if indice % 3 == 0:
+#         lista_resultante.append(valor)
+
+# print(lista_resultante)
 
 # Ejercicio 8
 # Escribir un programa que pida al usuario una palabra y muestre por pantalla si es un palíndromo.
 
+# palabra = input("escriba la palabra: ")
+
+# result1 = list(palabra)
+# result2 = result1[::-1]
+# if result1 == result2:
+#     print(f"la palabra {palabra} es un palindromo")
+# else:
+#     print(f"la palabra {palabra} NO es un palindromo")
 
 # Ejercicio 9
 # Escribir un programa que pida al usuario una palabra y muestre por pantalla el número de veces que contiene cada vocal.
+
+# # Pedir al usuario una palabra
+# palabra = input("Ingresa una palabra: ")
+
+# # Inicializar contadores para cada vocal
+# contador_a = contador_e = contador_i = contador_o = contador_u = 0
+
+# # Iterar sobre cada caracter de la palabra
+# for letra in palabra:
+#     # Convertir la letra a minúscula para hacer la comparación sin importar mayúsculas/minúsculas
+#     letra = letra.lower()
+    
+#     # Verificar si la letra es una vocal y actualizar el contador correspondiente
+#     if letra == 'a':
+#         contador_a += 1
+#     elif letra == 'e':
+#         contador_e += 1
+#     elif letra == 'i':
+#         contador_i += 1
+#     elif letra == 'o':
+#         contador_o += 1
+#     elif letra == 'u':
+#         contador_u += 1
+
+# # Mostrar los resultados
+# print(f"Número de veces que aparece la vocal 'a': {contador_a}")
+# print(f"Número de veces que aparece la vocal 'e': {contador_e}")
+# print(f"Número de veces que aparece la vocal 'i': {contador_i}")
+# print(f"Número de veces que aparece la vocal 'o': {contador_o}")
+# print(f"Número de veces que aparece la vocal 'u': {contador_u}")
 
 
 # Ejercicio 10
