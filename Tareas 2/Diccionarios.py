@@ -242,38 +242,38 @@ import json
 # Terminar el programa.
 
 
-# Obtiene la ruta absoluta del directorio actual
-directorio_actual = os.path.dirname(os.path.abspath(__file__))
+# # Obtiene la ruta absoluta del directorio actual
+# directorio_actual = os.path.dirname(os.path.abspath(__file__))
 
-# Combina la ruta del directorio actual con el nombre del archivo
-ruta_config = os.path.join(directorio_actual, 'config.json')
+# # Combina la ruta del directorio actual con el nombre del archivo
+# ruta_config = os.path.join(directorio_actual, 'config.json')
 
-# Abre el archivo en modo lectura
-with open(ruta_config, 'r') as archivo:
-    # Lee el contenido del archivo JSON
-    config_json = json.load(archivo)
+# # Abre el archivo en modo lectura
+# with open(ruta_config, 'r') as archivo:
+#     # Lee el contenido del archivo JSON
+#     config_json = json.load(archivo)
 
-# Imprime los datos leídos
-# print(config_json)
+# # Imprime los datos leídos
+# # print(config_json)
 
-final = ""
+# final = ""
 
-while final != "termino":
-    decision = input("\n\n¿Qué desea hacer? \n1-Añadir nuevo cliente.\n2-Eliminar cliente.\n3-Mostrar cliente.\n4-Listar todos los clientes.\n5-Listar clientes preferentes.\n6-Terminar   ")
+# while final != "termino":
+#     decision = input("\n\n¿Qué desea hacer? \n1-Añadir nuevo cliente.\n2-Eliminar cliente.\n3-Mostrar cliente.\n4-Listar todos los clientes.\n5-Listar clientes preferentes.\n6-Terminar   ")
 
-    if decision == "1":
-        dato = input("dato de un cliente a buscar: ")
+#     if decision == "1":
+#         dato = input("dato de un cliente a buscar: ")
 
-    if decision == "2":
-        print("decision 2")
-    if decision == "3":
-        print("decision 3")
-    if decision == "4":
-        print("decision 4")
-    if decision == "5":
-        print("decision 5")
-    if decision == "6":
-        final = "termino"
+#     if decision == "2":
+#         print("decision 2")
+#     if decision == "3":
+#         print("decision 3")
+#     if decision == "4":
+#         print("decision 4")
+#     if decision == "5":
+#         print("decision 5")
+#     if decision == "6":
+#         final = "termino"
 
 
-print(final)
+# print(final)
